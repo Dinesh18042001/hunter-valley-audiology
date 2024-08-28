@@ -1,0 +1,205 @@
+@media only screen and (max-width: 991px) {
+    .header_wrapper .mobile_menu{
+        display: block;
+        font-size: 30px;
+    }
+    .header-scrolled{
+        height: 104px;
+    }
+   
+
+    html, body {
+        overflow-x: hidden !important;
+      }
+      html{
+        overflow-x: hidden !important;
+      }
+      .header_wrapper .contact_btn{
+        display: none;
+      }
+      .about_wrapper .about_content_bx h2{
+        font-size: 37px;
+      }
+      .factors_wrapper .factors_banner .factor-content-sec{
+        padding: 0px 20px;
+      }
+      .service-wrapper .service-banner .bg-img{
+        height: 1850px;
+       }
+       .footer_wrapper .copy_right .side_bottom_link{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+       }
+       .footer_wrapper .copy_right .made_by{
+        text-align: center;
+       }
+       .footer_wrapper .overlay_bg{
+        justify-content: start !important;
+       }
+       .header_wrapper .navbar-brand img{
+        width: 96px;
+       }
+     
+  }
+
+
+  @media(max-width:551px){
+   .top_bar_wrapper{
+    display: none;
+   }
+   .banner-content .content_bx .sub-title h1{
+     font-size: 30px;
+   }
+   .about_wrapper .indicate_img{
+    width: 110px;
+    height: 110px;
+   }
+   .about_wrapper .over_flow_card_cont .content p{
+    font-size: 14px;
+   }
+   .about_wrapper .over_flow_card_cont .content p{
+    max-width: 250px;
+   }
+   .about_wrapper .indicate_img img{
+    width: 70px;
+   }
+   .about_wrapper{
+    padding-bottom: 130px !important;
+   }
+   .factors_wrapper .factors_banner img{
+    height: 600px;
+   }
+   .factors_wrapper .factors_banner .factor-content-sec h3{
+    font-size: 25px;
+   }
+   .service-wrapper .service-banner .bg-img{
+    height: 3061px;
+   }
+   
+  }
+  @media(max-width:400px){
+    .about_wrapper .over_flow_card_cont .content p{
+      max-width: 231px;
+     }
+     .about_wrapper .indicate_img{
+      width: 94px;
+      height: 94px;
+     }
+  }
+ 
+  
+  @media(max-width:767px){
+    .top_bar_wrapper{
+     display: none;
+    }
+    
+   }
+    
+
+  @media only screen and (min-width: 991px){
+    .navbar-expand-lg{
+        padding-top: 0px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 0 7px;
+    }
+    .navbar-expand-lg .navbar-nav{
+      margin-right: 20px;
+    }
+    .footer_wrapper .copy_right .side_bottom_link{
+      text-align: end;
+    }
+   
+  
+  }
+
+  @media only screen and (min-width: 991px ) and (max-width: 1199px ){
+    .main-btn{
+        padding: 10px 14px;
+    }
+    /* .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+    } */
+   
+    
+  }
+
+  @media only screen and (min-width: 991px ) and (max-width: 1200px ){
+    .main-btn{
+        padding: 10px 14px;
+    }
+    .header_wrapper .navbar-brand img{
+        /* height: 62px; */
+        width: 80px;
+    }
+    .main-btn{
+        font-size: 10px;
+    }
+    .header_wrapper .nav-item .nav-link{
+        font-size: 15px;
+        letter-spacing: 0 !important;
+    }
+    .header_wrapper .over_flow{
+      height: 99px;
+      width: 218px;
+    }
+    .about_wrapper .over_flow_card_cont{
+      width: 95%;
+    }
+    
+  }
+
+
+
+  @media(max-width:991px) {
+    .secvere-bvg-ear-icon1 img {
+      width: 100px;
+      position: absolute;
+      top: -1%;
+      left: 0%;
+      z-index: -1;
+    }
+  }
+  @media(max-width:991px) {
+    .secvere-bvg-ear-icon2 img {
+      width: 100px;
+      position: absolute;
+      top: -1%;
+      right: 0%;
+      z-index: -1;
+    }
+  }
+
+
+ /* about page */
+
+  @media(max-width:991px) {
+    .contact-icon1 i {
+      top: 2%;
+      right: 0%;
+    }
+  }
+  @media(max-width:576px) {
+    .contact-icon1 i {
+      top: 0%;
+      right: 20%;
+    }
+  }
+
+
+  
+  @media (max-width: 992px) {
+    .blog_listing .item {
+        flex: 1 1 calc(50% - 30px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .blog_listing .item {
+        flex: 1 1 100%; 
+    }
+  }
